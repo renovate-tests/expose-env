@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [{
+    "packagePatterns": ["*"],
+    "global": { "exposeEnv": true }
+  }]
+}

@@ -4,6 +4,6 @@
   ],
   "packageRules": [{
     "packagePatterns": ["*"],
-    "globalExposeEnv": true
+    "global": { "exposeEnv": true }
   }]
 }
